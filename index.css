@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background: linear-gradient(160deg, #1C1F33, #666370); /* Fondo oscuro con azul y gris */
+    color: #ced3dc; /* Gris claro azulado para el texto principal */
+    line-height: 1.6;
+    font-family: 'Merriweather', serif;
+}
+
+header {
+    background-color: #1C1F33; /* Azul muy oscuro */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #666370; /* Línea sutil gris oscuro */
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: normal;
+    color: #f7717d; /* Rojo brillante */
+    font-family: 'Roboto', sans-serif;
+}
+
+nav ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ced3dc; /* Gris claro para los enlaces */
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #f7717d; /* Rojo brillante en hover */
+}
+
+main {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #1C1F33; /* Fondo oscuro para contenido */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #f7717d; /* Rojo brillante para títulos secundarios */
+    margin-bottom: 20px;
+    border-bottom: 2px solid #666370; /* Línea gris oscuro */
+    padding-bottom: 10px;
+}
+h3 {
+    font-size: 1.2rem;
+    color: #f7717d; /* Rojo brillante para títulos secundarios */
+}
+p {
+    font-size: 1rem;
+    color: #ced3dc; /* Gris claro azulado para el texto */
+    margin-bottom: 20px;
+}
+
+a {
+    color: #f7717d; /* Rojo brillante para enlaces */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #fcf7f8; /* Blanco rosado en hover */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1C1F33; /* Azul oscuro */
+    border-top: 1px solid #666370;
+    margin-top: 40px;
+}
+
+footer p {
+    color: #fcf7f8; /* Blanco rosado para el texto del footer */
+    font-size: 0.9rem;
+}
